@@ -67,16 +67,17 @@ print(Name * 3)
 # Section 5 Type casting
 # This converts a variable in which case is a number into a string same thing can be done vice-versa and with booleans
 x = 1  # Integer(Number)
-y = 2.3 # Float (Decimal Number)
-z = "9" # String (Words)
+y = 2.3  # Float (Decimal Number)
+z = "9"  # String (Words)
 y = str(y)
 z = str(z)
 x = str(x)
 print("X is " + x)
 print("X is " + y)
-print(z*3)
+print(z * 3)
 # Section 6 User Input
 name = input("What is your name? ")
 Age_Input = float(input("What is your age? "))
 Height = float(input("How tall are you? "))
-print("Hello, "+ name +"!" " You are " + str(Age_Input) +"!" " And " + str(Height) + " centimeters tall!")
+print("Hello, " + name + "!" " You are " + str(Age_Input) + "!" " And " + str(Height) + " centimeters tall!")
+# Section 7
